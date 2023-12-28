@@ -3,7 +3,7 @@ const router = express.Router()
 const app = express()
 const porta = 3333
 
-const mulheres = {
+const Mulheres = {
         nome: 'Simara Conceição',
 
         imagem: 'https://bit.ly/3LJIyOF',
