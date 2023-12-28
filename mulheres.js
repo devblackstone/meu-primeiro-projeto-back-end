@@ -3,8 +3,7 @@ const router = express.Router()
 const app = express()
 const porta = 3333
 
-const mulheres = [
-    {
+const mulheres = {
         nome: 'Simara Conceição',
 
         imagem: 'https://bit.ly/3LJIyOF',
@@ -19,7 +18,6 @@ const mulheres = [
         minibio: 'CEO & Founder da PrograMaria',
     }
 
-]
 
 function mostraMulheres(request, response) {
     response.json(mulheres)
